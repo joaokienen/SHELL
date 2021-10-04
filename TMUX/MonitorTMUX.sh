@@ -3,6 +3,7 @@
 ###################################################################################################################################
 #                                                                                                                                 #
 # Script para validar e monitorar todos os servidores                                                                             #
+# Script to validate and monitor all servers                                                                                      #
 #                                                                                                                                 #
 # Data de criação: 10/09/2021 | João Kienen                                                                                       #
 #                                                                                                                                 #
