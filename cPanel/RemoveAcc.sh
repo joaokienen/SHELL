@@ -2,10 +2,10 @@
 
 ###################################################################################################################################
 #                                                                                                                                 #
-# Script para validar e excluir contas com o estado de suspended                                                                  #
+# Script para validar e excluir contas cPanel com o estado de suspended                                                           #
+# Script to validate and delete cPanel accounts with suspended state                                                              #
 #                                                                                                                                 #
 # Data de criação: 02/08/2021 | João Kienen                                                                                       #
-#                                                                                                                                 #
 #                                                                                                                                 #
 ###################################################################################################################################
 
