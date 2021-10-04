@@ -2,10 +2,10 @@
 
 ###################################################################################################################################
 #                                                                                                                                 #
-# Script para validar e gerar backup de contas com o estado de suspended                                                          #
+# Script para validar e gerar backup de contas cPanel com o estado de suspended                                                   #
+# Script to validate and backup cPanel accounts with suspended state                                                              #
 #                                                                                                                                 #
 # Data de criação: 02/08/2021 | João Kienen                                                                                       #
-#                                                                                                                                 #
 #                                                                                                                                 #
 ###################################################################################################################################
 
