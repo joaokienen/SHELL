@@ -3,10 +3,10 @@
 ###################################################################################################################################
 #                                                                                                                                 #
 # Script para validar e gerar arquivos de resursos listados                                                                       #
+# Script to validate and generate listed resource files                                                                           #
 #                                                                                                                                 #
 # Data de criação: 11/08/2021 | João Kienen                                                                                       #
 #                                                                                                                                 #
-# Exemplo de uso com ansible: 'ansible-playbook playbook.yml --ask-vault-pass'                                                    #
 #                                                                                                                                 #
 ###################################################################################################################################
 
