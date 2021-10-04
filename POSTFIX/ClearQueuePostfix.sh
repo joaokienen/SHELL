@@ -4,13 +4,12 @@
 #
 # Script de monitoramento de filas!
 #
-# Autor: João Victor Kienen
+# Autor: João Kienen
 # Data de criação: 23/06/2021
 #
-# Descrição: Script de monitoramento de estado de serviço das filas do cPanel com o zabbix!
+# Descrição: Script para limpeza logs SMTP assim que fila estiver em acúmulo.
+# Description: Script for clearing SMTP logs as soon as queue builds up.
 # Validação com arquivo zabbix: /etc/zabbix/zabbix_agentd.conf
-#
-# Exemplo de uso: ./limpafilas.sh
 #
 ####################################################################################
 
