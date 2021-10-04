@@ -7,6 +7,7 @@
 # Data de criação: 03/05/2021                                                                                                  #
 #                                                                                                                              #
 # Descrição: Script para extração e criptografia de informações do Banco de Dados e Wordpress com o objetivo de gerar Backups! #
+# Description: Script for extracting and encrypting information from Database and Wordpress in order to generate Backups!      #
 #                                                                                                                              #
 # Exemplo de uso: ./BACKUP.sh                                                                                                  #
 #                                                                                                                              #
