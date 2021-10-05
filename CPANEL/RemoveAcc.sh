@@ -7,6 +7,8 @@
 #                                                                                                                                 #
 # Data de criação: 02/08/2021 | João Kienen                                                                                       #
 #                                                                                                                                 #
+# Ansible Project: ANSIBLE/TerminatecPanelsAcc/                                                                                   #
+#                                                                                                                                 #
 ###################################################################################################################################
 
 for i in `find /var/cpanel/suspended/ -mtime +30 | cut -d'/' -f5 | sed '1 d'`
