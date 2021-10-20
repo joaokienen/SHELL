@@ -10,7 +10,7 @@
 
 echo > "IP's" > /tmp/CPANELIPS.txt
 
-for i in `cat /etc/trueuserdomains | cut -d: -f1`
+for i in `whmapi1 get_domain_info api.columns.enable=1 api.columns.b=domain --output=json|jq -r '.data.domains[]| .domain'`
         do
                 command=$(dig MX $i | grep MX | tail -n1 | rev | cut -d'X' -f1 | rev | cut -d' ' -f2)
                 command1=$(dig A $command | grep A | tail -n1 | rev | cut -d'A' -f1 | rev | cut -d' ' -f2)
