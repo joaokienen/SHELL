@@ -11,7 +11,7 @@
 DATE1=$(date +'%Y-%m-%d')
 cp -a /var/named /var/named.$DATE1
 
-echo > "IP'S" > /tmp/CPANELIPS.txt
+echo "IP'S" > /tmp/CPANELIPS.txt
 
 for i in `whmapi1 get_domain_info api.columns.enable=1 api.columns.b=domain --output=json|jq -r '.data.domains[]| .domain'`
 do
