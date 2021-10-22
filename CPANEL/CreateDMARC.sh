@@ -8,7 +8,7 @@
 #                                                                                                                                 #
 ###################################################################################################################################
 
-echo > "IP's" > /tmp/CPANELIPS.txt
+echo "IP's" > /tmp/CPANELIPS.txt
 
 for i in `whmapi1 get_domain_info api.columns.enable=1 api.columns.b=domain --output=json|jq -r '.data.domains[]| .domain'`
         do
